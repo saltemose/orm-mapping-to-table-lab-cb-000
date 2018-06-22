@@ -22,7 +22,9 @@ class Student
     SQL
     DB[:conn].execute(sql)
   end
-  
+
+  def self.save(name, grade)
+
 
   end
   # Remember, you can access your database connection anywhere in this class
